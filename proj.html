@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- box-icon -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- remix-icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- google  font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link -->
+    <link  rel="stylesheet" href="proj.css" type="text/css">
+  </head>
+  <body>
+    <header>
+        <h1 id="logo">Delish</h1>
+        <ul class="nevlis">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#indian">INDIAN</a></li>
+            <li><a href="#chinese">CHINESE</a></li>
+            <li><a href="#abo">ABOUT</a></li>
+            <li><a href="#cont">CONTACT</a></li>
+        </ul>
+        <div class="header-icon">
+            <i class="ri-search-line"></i>
+            <i class="bucket ri-shopping-cart-line"></i>
+            <a href="#con"><i class="ri-user-line"></i></a>
+            <div class="menu-ic"><i class="ri-menu-line"></i></div>
+        </div>
+        <div class="cart " style="margin-top: 300px; margin-bottom: 0px;">
+          <div class="cart-title" style="margin-top: 20%;">Cart Items <i class="close ri-close-circle-line"></i></div>
+          <div class="content"> 
+            <div class="cart-box">
+              <img src="pro1.jpg" alt="" style="width: 50px; height: 50px;" class="cart-image">
+              <div class="detail-box">
+                <div class='food-title'>DOSA</div>
+                <div class="price-box">
+                  <div class="cart-price">RS 200</div>
+                  <div class="cart-amt">RS.200</div>
+                </div>
+                <div>
+                  <input type="text" style="width: 40px;">
+                </div>
+              </div>  
+              
+                <i class="cart-remove ri-delete-bin-line" ></i>
+              
+            </div>
+
+            <div class="cart-box">
+              <img src="pro1.jpg" alt="" style="width: 50px; height: 50px;" class="cart-image">
+              <div class="detail-box">
+                <div class='food-title'>DOSA</div>
+                <div class="price-box">
+                  <div class="cart-price">RS 200</div>
+                  <div class="cart-amt">RS.200</div>
+                </div>
+                <div>
+                  <input type="text" "cart-quantity" style="width:40px">
+                </div>
+              </div>
+              
+                <i class="cart-remove ri-delete-bin-line"></i>
+            
+            </div>
+            <div class="cart-box">
+              <img src="pro1.jpg" alt="" style="width: 50px; height: 50px;" class="cart-image">
+              <div class="detail-box">
+                <div class='food-title'>DOSA</div>
+                <div class="price-box">
+                  <div class="cart-price">RS 200</div>
+                  <div class="cart-amt">RS.200</div>
+                </div>
+                <div>
+                  <input type="text" "cart-quantity" style="width:40px">
+                </div>
+              </div>
+              <i class="cart-remove ri-delete-bin-line"></i>
+            </div>
+          </div>
+          <div>
+            <button class="button">Order Now</button>
+          </div>
+        </div>
+    </header>
+    <main>
+      <section class="main">
+        <div class="home">
+          <!-- <h6>NEW ONE</h6> -->
+          <h1 style="font-family:  'Brush Script MT', cursive;">Taste the Passion <br>Love the Food</h1> 
+          <p class="para">Taste the passion, love the food - Our commitment to excellence means every dish is crafted with care and dedication. Explore our menu for flavorful delights that won't break the bank. Experience the love we infuse into every meal, and let your taste buds dance with delight. Join us on a flavorful journey today.</p>
+          <div class="order"><a href="#cat" >ORDER NOW <i class="ri-arrow-right-line"></i></a></div>
+        </div>
+      </section>
+      <section id="cat"  style="margin: 70px 0px;">
+        <div class="head-cate">
+          <h2 style="font-style: italic;">Categories</h2>
+        </div>
+        <div class="category">
+          <div class="row-1">
+            <div class="image-c">
+              <img src="indbanner.jpg" alt="" style="width: 300px;">
+            </div>
+            <h5 >INDIAN ITEMS</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+          </div>
+          <div class="row-1">
+            <div class="image-c">
+              <img src="chinban.jpg" alt="" style="width: 300px;">
+            </div>
+            <h5>CHINESE ITEMS</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+          </div>
+          <div class="row-1">
+            <div class="image-c">
+              <img src="japban11.webp" alt="" style="width: 300px;">
+            </div>
+            <h5>JAPANEESE ITEMS</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  class="ind" id="indian">
+        <div class="in-cate">
+          <h2 style="margin-bottom:20px;">INDIAN ITEMS</h2>
+        </div>
+        <div class="indian-it">
+          <div class="row-2">
+            <div class="image-in">
+              <img src="in1.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Biriyani</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.300</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="image-in">
+              <img src="in2.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Butter Chicken</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.300</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="image-in">
+              <img src="in3.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Naan</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.200</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="image-in">
+              <img src="in4.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Vindaloo</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.250</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="image-in">
+              <img src="in8.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Rogan Josh</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.250</h6>
+              </div>
+            </div>
+          </div><div class="row-2">
+            <div class="image-in">
+              <img src="in6.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Tandoori Chicken</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.350</h6>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section  class="china" id="chinese">
+        <div class="in-cate">
+          <h2 style="margin-bottom:20px;">CHINESE ITEMS</h2>
+        </div>
+        <div class="china-it">
+          <div class="row-3">
+            <div class="image-ch">
+              <img src="ch1.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Chow Mein</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.200</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row-3">
+            <div class="image-ch">
+              <img src="ch2.webp" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Spring Rolls</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.300</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row-3">
+            <div class="image-ch">
+              <img src="ch4.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Peking Duck</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.350</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row-3">
+            <div class="image-ch">
+              <img src="ch3.webp" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Dongpo Rou</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.250</h6>
+              </div>
+            </div>
+          </div>  
+          <div class="row-3">
+            <div class="image-ch">
+              <img src="ch5.jpg" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Sautéed Sweet</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.200</h6>
+              </div>
+            </div>
+          </div><div class="row-3">
+            <div class="image-ch">
+              <img src="ch8.webp" alt="" style="width: 300px;" class="food-img">
+            </div>
+            <h5 class="food-head">Dumpling</h5>
+            <div class="star">
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href=""><i class="ri-star-s-fill"></i></a>
+              <a href="" style="color: black;">4.9/5</i></a>
+            </div>
+            <div class="inside-row">
+              <div class="left">
+                Add To Cart <i class="add-cart ri-shopping-cart-fill"></i>
+              </div>
+              <div class="right">
+                <h6 class="food-price">RS.250</h6>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section id="abo" style="padding: 0px 10%; text-align: center; margin-bottom: 0px;">
+        <dir class="features">
+          <div class="box">
+            <div style="font-size:30px;">
+              <i class="ri-cash-line"></i>
+            </div>
+            <h3>Cash on delivery</h3>
+            <div>
+              <p style="font-size:15px;align-content: center;">Pay cash upon delivery, no upfront payment needed. Convenience at your doorstep, hassle-free.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div style="font-size:30px;">
+              <i class="ri-truck-fill"></i>
+            </div>
+            <div>
+              <h3>Delivery Charge Free</h3>
+              <p style="font-size:15px;align-content: center;">Get your items delivered free of charge, no hidden fees. Enjoy convenience without the extra cost.</p>
+            </div>
+          </div>
+          <div class="box">
+            <div style="font-size:30px;">
+              <i class="ri-wallet-2-fill"></i>  
+            </div>
+            <div>
+              <h3>Refund option Available</h3>
+              <p style="font-size:15px; align-content:center;">Shop worry-free with our refund option available. Contact us within a day for hassle-free returns.</p>
+            </div>
+          </div>
+        </dir>
+      </section>
+    <footer id="con">
+      <div class="footer">
+        <div class="box1" style="margin-top: 10px;">
+            <ul>
+              <li style="color: yellow; font-size: 17px;">FIND US</li>
+              <li><i class="ri-facebook-circle-fill"></i>   Facebook</i></li>
+              <li><i class="ri-instagram-line"></i>   Instagram</li>
+              <li><i class="ri-linkedin-box-fill"></i>   LinkedIn</li>
+              <li><i class="ri-youtube-fill"></i>   YouTube</li>
+
+            </ul>
+        </div>
+        <div class="box1" style="margin-top: 20px;">
+            <ul>
+              <li>SUPPORT</li>
+              <li>PRIVACY POLICY</li>
+              <li>CONTACT US</li>
+              <li>SHIPPING & RETURNS</li>
+              <li>TERMS OF SERVICE</li>
+            </ul>
+        </div>
+        <div class="box1" style="margin-top: 10px;">
+            <ul>
+              <li style="color: yellow;font-size: 18px;">Contact</li>
+              <li>For Sales: +91 8571016164, +91 8571016165</li>
+              <li>For Orders: +91 8571016161, +91 8572016161</li>
+              <li>hi@bitesbee.com</li>
+              <li>G016, Bestech Business Towers, Sector 66, Mohali, Punjab, 160066</li>
+           </ul>
+        </div> 
+      </div>  
+    </footer>
+    <script src="proj.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=, initial-scale=1.0"> -->
+    <title>Document</title>
+    <style>
+        .hi{
+            transition:all .6s;
+        }
+        .hello{
+            font-size:30px;
+            color:blueviolet;
+            font-weight:bold;
+            border:2px solid red;
+            padding:10px;
+            background-color:aqua;
+        }
+        header{
+            display:grid;
+            grid-template-columns: 200px 1fr 300px;
+        }
+        nav ul{
+            display: flex;
+            justify-content:space-around;
+            align-items:center;
+            align-content: center;
+            list-style: none;
+
+        }
+        nav ul li{
+             padding:20x;
+             border:2px solid white;
+
+        }
+        nav ul li:hover{
+            color:red;
+            border:2px solid red;
+           
+            background-color: aqua;
+        }
+        #op{
+            display: flex;
+            justify-content:space-around;
+        }
+        .image{
+            width:200px;
+            height:200px;
+        }
+        .inside{
+            display:flex;
+            justify-content: space-between;
+        }
+        .content{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            row-gap: 10px;
+            column-gap: 10px;
+            background-color: antiquewhite;
+
+        }
+        .cart{
+            padding:50px;
+            text-align:center;
+            /* margin:100px 50% 100px; */
+        }
+        /* .section{
+            text-align: center;
+        } */
+        .section{
+           padding: 100px 10%;
+           text-align: center;
+           width: 100%;
+           height: auto;
+            margin-top: 0px;
+            background-color: aqua;
+}
+    </style>
+
+<script src="test.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ganesh 0</h1>
+        <nav>
+            <ul>
+                <li>study</li>
+                <li>eligible</li>
+                <li>growth</li>
+                <li>monitor</li>
+                <li>google< /li>
+            </ul>
+        </nav>
+        <div id="op">
+            <h2>w</h2>
+            <h2>a</h2>
+            <h2>b</h2>
+        </div>
+    </header>
+    <p class="hi">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quaerat in ab atque ducimus pariatur maiores ipsum blanditiis adipisci voluptatem, amet architecto odit repellat facere.</p>
+    <p id="gii">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, nemo?</p>
+    <center>
+    <section class="section">
+        <div class="cart">
+            <div class="title">Items</div>
+            <div class="content">
+                <div class="box">
+                    <div ><img src="in1.jpg" alt="" class="image"></div>
+                    <div class="details">
+                        <h3>hello</h3>
+                        <div class="inside">
+                            <h4>rs 200</h4>
+                            <h4>rs 400</h4> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div ><img src="in1.jpg" alt="" class="image"></div>
+                    <div class="details">
+                        <h3>hello</h3>
+                        <div class="inside">
+                            <h4>rs 200</h4>
+                            <h4>rs 400</h4> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div ><img src="in1.jpg" alt="" class="image"></div>
+                    <div class="details">
+                        <h3>hello</h3>
+                        <div class="inside">
+                            <h4>rs 200</h4>
+                            <h4>rs 400</h4> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div ><img src="in1.jpg" alt="" class="image"></div>
+                    <div class="details">
+                        <h3>hello</h3>
+                        <div class="inside">
+                            <h4>rs 200</h4>
+                            <h4>rs 400</h4> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div ><img src="in1.jpg" alt="" class="image"></div>
+                    <div class="details">
+                        <h3>hello</h3>
+                        <div class="inside">
+                            <h4>rs 200</h4>
+                            <h4>rs 400</h4> 
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div ><img src="in1.jpg" alt="" class="image"></div>
+                    <div class="details">
+                        <h3>hello</h3>
+                        <div class="inside">
+                            <h4>rs 200</h4>
+                            <h4>rs 400</h4> 
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    </center>
+    <form action="proj.html" id="form" get="" style="margin:300px 300px">
+        <label for="name">Name</label>
+        <input type="text" id="name" >
+        <p class="nameerror"></p>
+        <br>
+        <label for="passwordd">Password</label>
+        <input type="password" id="password">
+        <p id="passerror"></p>
+        <label for="password2">Password2</label>
+        <input type="password" id="password2">
+        <p id="passerror2"></p>
+        <p></p>
+        <br>
+         <input type="email" id="email">
+         <p id="error4"></p>
+        <button type="submit">subm-+it</button>
+       
+        <script>
+            let para=document.querySelector('.hi');
+            para.addEventListener('click',()=>{
+                para.classList.toggle('hello')
+            })
+            let hove=document.querySelector("#gii")
+            console.log(hove);
+            hove.addEventListener('mouseover',function(){
+                this.style.fontSize='30px';
+            })
+            hove.addEventListener('mouseout',function(){
+                 this.innerHTML=" "
+            })
+            
+            let password=document.getElementById("password");
+            let form=document.querySelector('#form')
+            let error=document.querySelector('.nameerror');
+            let error2 =document.querySelector('#passerror');
+            let password2=document.getElementById('password2')
+            let error3=document.querySelector('#passerror2')
+            let email=document.getElementById('email')
+            let error4=document.getElementById('error4')
+            let validate=/^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]{2,}$/;
+            let mail="hello@gmail.com";
+            const fe=validate.test(mail);
+            console.log(fe)
+            let name=document.getElementById("name");
+            name.addEventListener('change',hel)
+            function hel(){
+                this.value=this.value.toUpperCase()
+            }
+            name.addEventListener('input',hel)
+            function hel(){
+                this.value=this.value.toUpperCase()
+            }
+            name.addEventListener('focus',hr)
+            function hr(){
+                this.style.borderColor="red"
+                this.style.color='green';
+                this.style.fontSize='20px';
+                this.style.padding='15px'
+            }
+
+            console.log(name,password,form.lastElementChild,error,error2,password2,error3)
+
+            form.addEventListener('submit',(e)=>{
+                
+                let mess=[]
+                if(name.value==""){
+                    error.innerHTML="name cannot be empty";
+                        mess.push("error")
+                    }
+                else if(name.value.trim().length<5){
+                    error.innerHTML="Name must contain more than 5 character"
+                    mess.push("error")
+                }
+                if(password.value==""){
+                    error2.innerHTML="the field cannot be empty";
+                    mess.push("error");
+                }else if(password.value=="password"){
+                    error2.innerHTML="password cannot be password";
+                    mess.push("error");
+                }else if(password.value.length<5){
+                    error2.innerHTML="password should contain more than 5 characters ";
+                    mess.push("error");
+                }else if(!password.value.includes("@")){
+                    error2.innerHTML='password should contain @ symbol';
+                    mess.push('errro')
+                }
+                if(password2.value!=password.value){
+                    error3.innerHTML="password must be same ";
+                    mess.push("error"); 
+
+                }
+                
+
+
+                if(email.value==""){
+                    error4.innerHTML="this field cannot be empty"
+                    mess.push("error")
+                }else if(validate.test(email.value)){
+                    error4.innerHTML="you should enter email properly";
+                    mess.push('erro');
+                }
+                if(mess.length>0){
+                    e.preventDefault()
+                }
+            })
+
+
+        </script>
+    </form>
+</body>
+</html>
